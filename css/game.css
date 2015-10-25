@@ -1,0 +1,29 @@
+.background    { background: rgb(254, 150, 0);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 238, 74); }
+.wall          { background: white;   }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url(http://orig10.deviantart.net/ebed/f/2014/290/7/3/corn_cnadyyy_by_kawiku-d837c7n.gif); }
+.player { background-image: url(http://orig11.deviantart.net/1bf4/f/2010/277/0/9/floating_foods__jack_o__lantern_by_byakughan-d301aa1.gif);
+			background-size: 16px 20px;
+		    box-shadow: -4px -7px 8px white, 4px -7px 8px white;}
+.enemy 	{ background: rgb(192, 28, 19); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px yellow;
+}
+
+
